@@ -1,8 +1,16 @@
 {
-    "map": [],
+    "map": {
+        "PhpRepos\\ControlFlow": "Source",
+        "Tests": "Tests"
+    },
     "entry-points": [],
     "excludes": [],
     "executables": [],
     "packages-directory": "Packages",
-    "packages": []
+    "packages": {
+        "https:\/\/github.com\/php-repos\/test-runner.git": "v1.1.0"
+    },
+    "aliases": {
+        "test-runner": "https:\/\/github.com\/php-repos\/test-runner.git"
+    }
 }
