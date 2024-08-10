@@ -3,7 +3,7 @@
 namespace Tests\WhenExistsTest;
 
 use function PhpRepos\ControlFlow\Conditional\when_exists;
-use function PhpRepos\TestRunner\Assertions\Boolean\assert_true;
+use function PhpRepos\TestRunner\Assertions\assert_true;
 use function PhpRepos\TestRunner\Runner\test;
 
 test(
